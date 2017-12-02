@@ -41,7 +41,7 @@ Vous serez jugé sur votre qualité à produire un code propre, bien structuré,
 
 ## Installation
 
-> git clone https://github.com/sohelzerdoumi/phpfinghtgame.git \
+> git clone https://github.com/sohelzerdoumi/phpfightgame.git \
 > cd phpfinghtgame \
 > composer install
 
