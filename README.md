@@ -1,5 +1,7 @@
 # Règles
 
+Votre but est de développer un simulateur de combat entre 2 joueurs.
+
 ## Départ
 En entré, vous recevez 2 lignes. Chacune formaté comme suit:
 > \<Nom> \<point de vie> \<attaque> \<défense>
@@ -46,3 +48,8 @@ Vous serez jugé sur votre qualité à produire un code propre, bien structuré,
 ## lancer les tests
 
 > php bin/kahlan
+
+## Production
+
+Vous devez travailler dans le repertoire **src/**.\
+La classe **Game** est le point d'entré d'une partie.
