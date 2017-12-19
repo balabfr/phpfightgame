@@ -56,3 +56,39 @@ Note: Bob n'a pas eu le temps de se faire tapper par Alice. Il reste donc à 15 
 
 Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.\
 Conseil, structuré votre solution avec un maximum de classes.
+
+
+# Exemple de class Game 
+
+Le code qui suit n'est pas fonctionnel et sa qualité n'est pas à prendre en exemple.\
+Son seul but est de vous aider à mieux appréhender l'exercice.
+```php
+class Game
+{
+    private $playerA;
+    private $playerB;
+
+    public function __construct($input)
+    {
+        $this->playerA = split(" ", split("\n", $input)[0]);
+        $this->playerB = split(" ", split("\n", $input)[1]);
+    }
+
+    public function run()
+    {
+        // Rounds
+        while ($this->playerA[1] > 0 and $this->playerB[1] > 0) {
+            $this->playerA[1] -= 10;
+            $this->playerB[1] -= 10;
+            print $this->playerA[1] . " " . $this->playerB[1];
+        }
+
+        // End
+        if ($this->playerA[1] > 0) {
+            print $this->playerA[0] . " " . $this->playerA[1];
+        } else {
+            print $this->playerB[0] . " " . $this->playerB[1];
+        }
+    }
+}
+```
