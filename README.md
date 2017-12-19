@@ -1,16 +1,35 @@
-# Règles
+#Présentation
 
 Votre but est de développer un simulateur de combat entre 2 joueurs.
 
+## Production
+
+Vous devez travailler dans le repertoire **src/**.\
+La classe **Game** est le point d'entré d'une partie.\
+Le jeu se lance en console, via des tests unitaires.
+> php bin/kahlan
+
+## Installation
+
+> git clone https://github.com/sohelzerdoumi/phpfightgame.git \
+> cd phpfinghtgame \
+> composer install
+
+# Règles
+
 ## Départ
-En entré, vous recevez 2 lignes. Chacune formaté comme suit:
-> \<Nom> \<point de vie> \<attaque> \<défense>
+La classe **Game** s'initialise avec une chaine de caractères.\
+Cette chaine comporte les informations des deux joueurs, sur 2 lignes formatées comme suit:
+> \<Nom 1> \<point de vie> \<attaque> \<défense>\
+> \<Nom 2> \<point de vie> \<attaque> \<défense>
 
 exemple:
 >    Bob 30 7 4 \
 >    Alice 20 9 2
 
 ## Déroulement d'un tour
+La méthode **Game->run()** est appelée une seul fois pour lancer l'intégralité du combat.
+
 A chaque tour, 
 le joueur 1 attaque le joueur 2. Puis le joueur 2 attaque le joueur 1,\
 Suivant la formule: **pv_j1 = pv_j1 - (attaque_j2 - def_j1)** \
@@ -35,21 +54,5 @@ Note: Bob n'a pas eu le temps de se faire tapper par Alice. Il reste donc à 15 
 
 # Notation
 
-Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.
-
-# Préparation
-
-## Installation
-
-> git clone https://github.com/sohelzerdoumi/phpfightgame.git \
-> cd phpfinghtgame \
-> composer install
-
-## lancer les tests
-
-> php bin/kahlan
-
-## Production
-
-Vous devez travailler dans le repertoire **src/**.\
-La classe **Game** est le point d'entré d'une partie.
+Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.\
+Conseil, structuré votre solution avec un maximum de classes.
