@@ -55,7 +55,7 @@ Note: Bob n'a pas eu le temps de se faire tapper par Alice. Il reste donc à 15 
 # Notation
 
 Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.\
-Conseil, structuré votre solution avec un maximum de classes.
+Conseil, structurez votre solution avec un maximum de classes.
 
 
 # Exemple de class Game 
