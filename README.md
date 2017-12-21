@@ -55,7 +55,15 @@ Note: Bob n'a pas eu le temps de se faire tapper par Alice. Il reste donc à 15 
 # Notation
 
 Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.\
-Conseil, structurez votre solution avec un maximum de classes.
+Mais aussi, sur votre capacité à créer des objets cohérents et bien nommés, effectuant une tache ou un groupe de tache bien précis.\
+Tout code redondant est éliminatoire.
+
+Conseils:
+* structurez votre solution avec un maximum de classes ( au moins 4)
+* s'inspirer d'un model MVC peut être une bonne idée, en prenant Game comme controller
+
+Indice:
+* Pas de "print" dans **Game**
 
 
 # Exemple de class Game 
