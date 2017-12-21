@@ -64,7 +64,7 @@ Conseils:
 
 Indice:
 * Pas de "print" dans **Game**
-
+* Notre solution témoin dispose de 8 classes et 1 interface. Epatez nous ;)
 
 # Exemple de class Game 
 
