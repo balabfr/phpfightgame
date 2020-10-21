@@ -55,7 +55,7 @@ Note: Bob n'a pas eu le temps de se faire tapper par Alice. Il reste donc à 15 
 # Notation
 
 Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant des bonnes pratiques.\
-Mais aussi, sur votre capacité à créer des objets cohérents et bien nommés, effectuant une tache ou un groupe de tache bien précis.\
+Mais aussi, sur votre capacité à créer des objets cohérents et biens nommés, effectuant une tache ou un groupe de taches bien précis.\
 Tout code redondant est éliminatoire.
 
 Conseils:
